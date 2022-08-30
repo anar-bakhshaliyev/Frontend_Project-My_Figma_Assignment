@@ -1,0 +1,134 @@
+section {
+  width: 99%;
+}
+
+.yellowGril {
+  background-image: url(/images/photo-1515886657613-9f3515b0c78f.jpeg);
+  height: 800px;
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 100px;
+  font-weight: 900;
+  font-size: 34px;
+}
+
+p {
+  line-height: 1.5;
+  margin-top: 20px;
+  color: gray;
+  /* letter-spacing: 1px; */
+  word-spacing: 2px;
+}
+
+.sliderInfo {
+  padding-left: 7%;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+.card {
+  width: 10rem;
+  border: none;
+}
+
+.card-price {
+  display: inline;
+  display: inline;
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.colors {
+  display: initial;
+  float: right;
+}
+
+.card-text {
+  font-size: 13px;
+  color: black;
+}
+
+.shopAllEverday {
+  color: black;
+  font-size: 13px;
+  border-bottom: 1.6px solid black;
+  width: 27%;
+  font-weight: 600;
+  padding-bottom: 6px;
+  font-family: sans-serif;
+  margin-top: 38px;
+}
+
+.swiper {
+  margin-top: 70px;
+}
+
+.card-body {
+  padding: 0px;
+}
+
+.res {
+  display: none;
+}
+
+@media only screen and (max-width: 995px) {
+  .yellowGril {
+    height: 1311px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .yellowGril {
+    height: 1050px;
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .yellowGril {
+    height: 555px;
+  }
+
+  .res {
+    display: block;
+    color: white;
+  }
+
+  .title {
+    margin-top: 305px;
+    font-weight: 900;
+    font-size: 22px;
+    padding-left: 11px;
+  }
+
+  .shopAllEverday {
+    font-size: 13px;
+    border-bottom: 1.6px solid white;
+    width: 43%;
+    font-weight: 600;
+    padding-bottom: 6px;
+    font-family: sans-serif;
+    margin-top: 47px;
+    margin-left: 15px;
+  }
+
+  .sliderInfo {
+    margin-top: -140px;
+  }
+
+  .card {
+    width: 6rem;
+  }
+
+  .blk {
+    display: none;
+  }
+}
