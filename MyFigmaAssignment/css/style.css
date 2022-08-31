@@ -3,12 +3,12 @@ section {
 }
 
 .yellowGril {
-  background-image: url(/images/photo-1515886657613-9f3515b0c78f.jpeg);
+  background-image: url(../images/photo-1515886657613-9f3515b0c78f.jpeg);
   height: 800px;
   background-size: cover;
 }
 
-h1 {
+.mainH1 {
   margin-top: 100px;
   font-weight: 900;
   font-size: 34px;
@@ -57,7 +57,7 @@ p {
   color: black;
 }
 
-.shopAllEverday {
+.shopAllEveryday {
   color: black;
   font-size: 13px;
   border-bottom: 1.6px solid black;
@@ -79,6 +79,7 @@ p {
 .res {
   display: none;
 }
+
 
 @media only screen and (max-width: 995px) {
   .yellowGril {
@@ -109,7 +110,7 @@ p {
     padding-left: 11px;
   }
 
-  .shopAllEverday {
+  .shopAllEveryday {
     font-size: 13px;
     border-bottom: 1.6px solid white;
     width: 43%;
